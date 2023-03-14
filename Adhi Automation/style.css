@@ -1,0 +1,782 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,500;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body,html{
+    overflow-x: hidden;
+}
+ section{
+    padding: 30px;
+ }
+.logo{
+    width: 75px;
+    height: 75px;
+
+}
+.logoName{
+    font-size:27px;
+    font-weight: 800;
+    margin-left: 10px;
+    color: rgb(95,19, 163);
+}
+#banner{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    display: flex;
+}
+.carousel-inner h5{
+    font-size: 25px;
+    font-weight: 600;
+}
+#navbar{
+    background-color: white !important;
+    position: fixed;
+    width: 100%;
+   
+}
+#navbarSupportedContent a {
+    margin: 0px 18px;
+    font-size: 16px;
+
+    color: black;
+    border-bottom: 1px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 1px solid black;
+}
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 0.80rem;
+    left: 26%;
+    padding-bottom: 13.25rem;
+    color: rgb(3, 3, 3);
+    text-align: center;
+}
+.carousel-caption p{
+    color: black;
+}
+
+/*-------------------------About------------------------------------*/
+
+ #aboutimage{
+    border-radius: 3px;
+} 
+#About h3{
+    font-weight: 900;
+    color: black;
+    font-size: 27px;
+    margin-left:11px;
+}
+#About p{
+    color: black;
+    text-align: justify !important;
+    padding: 10px;
+}
+ #About a{
+    text-decoration: none;
+    color:  rgb(95,19, 163);
+}
+.button{
+    color: #FFF;
+    background-color: rgb(95,19, 163);
+    padding: 7px;
+    border: none;
+    border-radius: 0px;
+    margin-left: 11px;
+}
+.button:hover{
+    background-color: #FFF;
+    color: black;
+    border: 1px solid rgb(95,19, 163);
+}
+.counting{
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    display: flex;
+    padding: 1em 0;
+    
+} 
+#runcount{
+    background-color:#f5f2f2;
+}
+.counting i{
+    text-align: center;
+    font-size:30px;
+    color: rgb(0, 0, 0);
+}
+
+span.value{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color:black;
+}
+span.text{
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+/*-----------------List of machinery-----------------------------------*/
+h1{
+    font-weight: 600;
+    color: black;
+    margin-top: 50px;
+}
+    
+
+#Mechinery p{
+    color: black;
+}
+#listimage{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+} 
+.card{
+    border: 1px solid rgb(95,19, 163);
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition: .2s;
+    cursor: pointer;
+    color: black;
+    border-radius:0px;
+}
+.card h5,p{
+    text-align: center;
+
+}
+.card-body{
+    text-align: center;
+}
+.btn{
+    background-color: rgb(95,19, 163);
+    color: #FFF;
+    border-radius:0px;
+}
+.btn:hover{
+    background-color: #FFF;
+    color: black;
+    border: 1px solid rgb(95,19, 163);
+    
+}
+/*------------------------map----------------------------------*/
+#map{
+    background-color: #efefef;
+}
+#address{
+    margin-top: 30px;
+  
+}
+#address h4{
+    text-align: center;
+    font-weight: 600;
+}
+#address h2{
+    color: black;
+    font-weight: 800;
+}
+#address p{
+    color: black;
+    font-size: 18px;
+}
+iframe{
+    margin-top: 5px;
+}
+/*-----------------footer-----------------------------------------*/
+
+#footer{
+    background-color: rgba(0, 0, 0, 0.76);
+    width: 100%;
+    height: 220px;
+    margin-top: 5px;
+    background-size: cover;
+    position:absolute;
+}
+i{
+    color: whitesmoke;
+    margin: 17px 6px;
+    font-size: 26px;
+}
+#footer h4,p{
+    color: whitesmoke;
+}
+.copyright{
+    color: #FFF;
+    font-size: 13px;
+}
+/*------------------------- Innerpage-------------------------------*/
+#contact{
+    background-image:
+            linear-gradient(
+              rgba(82, 82, 82, 0.39),
+              rgba(14, 14, 14, 0.75)), url(
+'image/contact.jpg');
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+#location .col-md-4{
+    border: 1px solid black;
+}
+#location{
+    padding: 10px;
+    
+}
+#location a{
+    text-decoration: none;
+    color: black;
+}
+#location a:hover{
+    color: blue;
+}
+#contact h2{
+    font-size: 40px;
+    color:#FFF;
+    font-weight: 700;
+}
+#location h4{
+    font-size: 17px;
+    color: rgb(95,19, 163);
+    font-weight: 700;
+    text-align: center;
+}
+
+#form{
+    background-color: #efefef;
+    width: 100%;
+    height: 500px;
+}
+input:hover{
+    border: 1px solid black;
+}
+#location i{
+    color: rgb(95,19, 163);
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+}
+#location p{
+    color: black;
+}
+
+.map{
+    margin-top: 18px;
+    width: 100%;
+    height: 380px;
+}
+/*--------------------------------------------------------------*/
+#infrastructure{
+    background-image:
+            linear-gradient(
+              rgba(97, 97, 97, 0.75),
+              rgba(99, 99, 99, 0.75)), url(
+'image/infrastructure.png');
+   width: 100%;
+   height: 400px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-size: cover;
+   display: flex;
+   color: #FFF;
+}
+#infrastructure h2{
+   font-size: 40px;
+   color:#FFF;
+   font-weight: 700;
+}
+/*-------------------------------------------------------------------*/
+#service{
+    background-image:
+            linear-gradient(
+              rgba(253, 252, 252, 0.75),
+              rgba(14, 14, 14, 0.75)), url(
+'image/service.png');
+   width: 100%;
+   height: 400px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-size: cover;
+   display: flex;
+   color: #FFF;
+} 
+#service h2{
+    font-size: 40px;
+    color:#FFF;
+    font-weight: 700;
+
+}
+#nonferrous p{
+    color: black;
+    text-align: justify;
+    margin-top: 5px;
+}
+#nonferrous h3{
+    font-weight: 700;
+    color:black;
+}
+#ferrousNon h3{
+    font-weight: 700;
+    color:black ;
+}
+#ferrousNon p{
+    color: black;
+    text-align: justify;
+}
+.product h3{
+     font-weight: 700;
+}
+.product p{
+    color: black;
+    text-align: justify;
+}
+.capacity h3{
+    font-weight: 700;
+}
+.list h3{
+    font-weight: 700;
+}
+/*---------------------------------------------------------------------*/
+#client{
+    background-image:
+            linear-gradient(
+              rgba(56, 56, 56, 0.75),
+              rgba(14, 14, 14, 0.75)), url(
+'clients/client.webp');
+   width: 100%;
+   height: 400px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-size: cover;
+   display: flex;
+   color: #FFF;
+} 
+#client h2{
+    font-size: 40px;
+    color:#FFF;
+    font-weight: 700;
+
+}
+
+
+.line{
+    background-color:#FFF ;
+    width: 150px;
+    height: 4px;
+    margin: 2px auto;
+    border-radius: 3px;
+}
+#border{
+    border: 1px solid #d8d8d8;
+    padding: 35px;
+
+}
+#border:hover{
+    background-color: #efefef;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+/*----------------------------------------------------------------*/
+#profile{
+  background-image:
+            linear-gradient(
+              rgba(87, 87, 87, 0.75),
+              rgba(173, 182, 235, 0.75)), url(
+'image/profile.png');
+   width: 100%;
+   height: 400px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-size: cover;
+   display: flex;
+   color: #FFF;
+}
+#profile h2{
+    font-size: 40px;
+    color:#FFF;
+    font-weight: 700;
+
+}
+#profilee p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    text-align: justify !important;
+}
+#profileiso p{
+    color: black;
+    background-color: #efefef;
+    padding: 70px;
+    font-size: 20px;
+    text-align: justify !important;
+}
+#profileiso h2{
+    font-weight: 700;
+}
+#quality p{
+    color: black;
+    background-color: #efefef;
+    padding: 70px;
+    font-size: 20px;
+    text-align: justify !important;
+}
+#quality h2{
+    text-align: center;
+    font-weight: 700;
+}
+#manage h2{
+    font-weight: 700;
+    text-align: center;
+}
+#manage .card{
+    background-color: #FFF;
+}
+#manage p{
+    color: black;
+}
+
+/*-----------------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+    .logoName{
+       font-size: 21px;
+       font-weight: 700;
+      
+    }
+    #navbarSupportedContent a{
+        margin: 0px 10px;
+    }
+    .carousel-caption{
+        position: absolute;
+        right: 20%;
+        top: 42%;
+        left: 25%;
+        color: rgb(3, 3, 3);
+        text-align: center;
+    }
+    .carousel-caption h5{
+        font-size: 25px;
+    }
+    .carousel-caption p{
+        font-size: 15px;
+    }
+    #About h3{
+        font-size: 20px;
+    }
+    #About p{
+        font-size: 14px;
+    }
+    iframe{
+        width: 100%;
+        height: 270px;
+    }
+    #address p{
+        font-size: 15px;
+    }
+    iframe{
+        width: 100%;
+        height: 300px;
+        margin-top: 5px;
+    }
+
+}
+/*---------------------------Responsive page------------------------*/
+@media only screen and (max-width: 768px) {
+    #navbarSupportedContent {
+        background-color: white !important;
+    }
+    #navbarSupportedContent a{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 20px;
+    }
+    .logoName{
+        margin-right: 200px;
+        font-weight: 500;
+      
+    }
+    .carousel-caption{
+        position: absolute;
+        right: 20%;
+        top: 55%;
+        left: 25%;
+        color: rgb(3, 3, 3);
+        text-align: center;
+    }
+    .carousel-caption h5{
+        font-size: 15px;
+    }
+    .carousel-caption p{
+        font-size: 10px;
+    }
+    #address p{
+        font-size: 11px;
+    }
+    iframe{
+        width: 100%;
+        height: 270px;
+    }
+    #address h5{
+        font-size: 18px;
+    }
+    #About p{
+        font-size: 9px;
+    }
+    #profilee p{
+        font-size: 19px;
+        text-align: justify !important;
+    }
+    #profileiso p{
+        font-size: 16px;
+        padding: 13px;
+        text-align: justify !important;
+    }
+    #quality p{
+        font-size: 16px;
+        text-align: justify !important;
+        padding: 13px;
+    }
+    #footer i{
+        color: white;
+        font-size: 22px;
+    }
+    #footer p{
+        font-size: 14px;
+    }
+/*------------------------------------------------------------------*/
+@media only screen and (max-width: 425px){
+     .logoName{
+        margin-right: 60px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+     #banner{
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+    }
+     .carousel-caption{
+        position: absolute;
+        right: 20%;
+        top: 48%;
+        left: 25%;
+        color: rgb(3, 3, 3);
+        text-align: center;
+    }
+    .carousel-caption h5{
+        font-size: 13px;
+    }
+    .carousel-caption p{
+        font-size: 8px;
+    }
+    #address p{
+        font-size: 15px;
+    }
+    #profilee p{
+        font-size: 14px;
+        text-align: justify !important;
+    }
+    #profileiso p{
+        font-size: 13px;
+        padding: 9px;
+        text-align: justify !important;
+    }
+    #quality p{
+        font-size: 13px;
+        text-align: justify !important;
+        padding: 9px;
+    }
+     #footer i{
+        color: white;
+        font-size: 20px;
+    }
+    #footer p{
+        font-size: 11px;
+    }
+
+}
+/*------------------------------------------------------------------*/
+}
+@media only screen and (max-width: 375px) {
+    #navbarSupportedContent {
+        background-color: white !important;
+    }
+    #navbarSupportedContent a{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 20px;
+    }
+    #banner{
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+    }
+     .logo{
+        width: 50px;
+        height:50px ;
+        
+    }
+    .logoName{
+        margin-right: 30px;
+        font-size: 19px;
+        font-weight: 500;
+    } 
+    .carousel-caption{
+        position: absolute;
+        right: 20%;
+        top: 48%;
+        left: 25%;
+        color: rgb(3, 3, 3);
+        text-align: center;
+    }
+    .carousel-caption h5{
+        font-size: 13px;
+    }
+    .carousel-caption p{
+        font-size: 8px;
+    }
+     #About p{
+        font-size: 13px;
+    }
+     .card{
+        margin: 4px auto;
+       
+    } 
+    #address p{
+        font-size: 13px;
+    }
+    #footer i{
+        color: white;
+        font-size: 17px;
+    }
+    #footer p{
+        font-size: 10px;
+    }
+    #profilee p{
+        font-size: 14px;
+        text-align: justify !important;
+    }
+    #profileiso p{
+        font-size: 13px;
+        padding: 9px;
+        text-align: justify !important;
+    }
+    #quality p{
+        font-size: 13px;
+        text-align: justify !important;
+        padding: 9px;
+    }
+/*------------------------------------------------------------------*/
+}
+
+@media only screen and (max-width: 320px) {
+    #navbarSupportedContent {
+        background-color: white !important;
+    }
+    #navbarSupportedContent a{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 20px;
+    }
+    #banner{
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+    }
+    .logo{
+        width: 42px;
+        height:42px ;
+        
+    }
+    .logoName{
+        margin-right: 61px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .carousel-caption{
+        position: absolute;
+        right: 20%;
+        top: 48%;
+        left: 25%;
+        color: rgb(3, 3, 3);
+        text-align: center;
+    }
+    .carousel-caption h5{
+        font-size: 12px;
+    }
+    .carousel-caption p{
+        font-size: 7px;
+    }
+    #About p{
+        font-size: 13px;
+    }
+    #About h3{
+        margin-left: 12px;
+        font-size: 15px;
+        margin-top: 3px;
+    }
+    .button{
+        margin-left: 50px;
+    }
+
+    .card{
+        margin: 3px auto;
+       
+    } 
+    #address p{
+        font-size: 12px;
+    }
+
+    #footer i{
+        color: white;
+        font-size: 17px;
+    }
+    #footer p{
+        font-size: 9px;
+    }
+    #profilee p{
+        font-size: 12px;
+        text-align: justify !important;
+    }
+    #profileiso p{
+        font-size: 11px;
+        padding: 6px;
+        text-align: justify !important;
+    }
+    #quality p{
+        font-size: 11px;
+        text-align: justify !important;
+        padding: 6px;
+    }
+    
+    #form .map{
+        width: 100%;
+        height: 300px;
+    }
+   
+}
